@@ -52,10 +52,10 @@ app.put('/business', (req, res) => {
     id: 3,
     company: 'Alguna empresa en Quebec'
   }];
-  
+
   res.status(200).json(companies);
 });
 
 app.listen(8000, () => {
   console.log('Server started at port 8000')
-})
+});
